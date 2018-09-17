@@ -2,4 +2,8 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'am a button</string>
+    <string name="login">Giriş</string>
+    <string name="login_name">kullanıcı adı</string>
+    <string name="password">şifre</string>
+    <string name="wht">What does this do?</string>
 </resources>

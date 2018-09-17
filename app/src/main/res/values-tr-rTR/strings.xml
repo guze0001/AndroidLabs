@@ -3,4 +3,9 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Merhaba Dünya!</string>
     <string name="ButtonText">Ben bir dugmeyim</string>
+
+    <string name="login">login</string>
+    <string name="login_name">login name</string>
+    <string name="password">password</string>
+    <string name="wht">Bu ne işe yarar?</string>
 </resources>
