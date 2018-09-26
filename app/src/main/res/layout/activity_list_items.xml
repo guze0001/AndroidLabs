@@ -11,11 +11,11 @@
     android:layout_gravity="fill">
 <RadioButton android:layout_columnWeight="1"
     android:layout_gravity="fill"/>
-    <CheckBox android:layout_columnWeight="1"
+    <CheckBox android:id="@+id/chkList" android:layout_columnWeight="1"
         android:layout_gravity="fill"/>
-    <Switch android:text="@string/wht" android:layout_columnWeight="1"
+    <Switch android:id="@+id/swtCheck" android:text="@string/wht" android:layout_columnWeight="1"
         android:layout_gravity="fill"/>
 
-    <ImageButton android:src="@android:drawable/ic_menu_camera" android:layout_columnWeight="1"
+    <ImageButton android:id="@+id/btnCam" android:src="@android:drawable/ic_menu_camera" android:layout_columnWeight="1"
         android:layout_gravity="fill"/>
 </GridLayout>

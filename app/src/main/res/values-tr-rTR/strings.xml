@@ -4,8 +4,13 @@
     <string name="hello_message">Merhaba Dünya!</string>
     <string name="ButtonText">Ben bir dugmeyim</string>
 
-    <string name="login">login</string>
-    <string name="login_name">login name</string>
-    <string name="password">password</string>
+    <string name="login">Giriş</string>
+    <string name="login_name">kullanıcı adı</string>
+    <string name="password">şifre</string>
     <string name="wht">Bu ne işe yarar?</string>
+    <string name="dialog_message">Aktiviteyi kapatmak ister misin kardes?</string>
+    <string name="dialog_title">Uygulama Kapanisi</string>
+    <string name="ok">Tamam</string>
+    <string name="cancel">Iptal</string>
+    <string name="res_msg">Benim cevabim bu</string>
 </resources>
