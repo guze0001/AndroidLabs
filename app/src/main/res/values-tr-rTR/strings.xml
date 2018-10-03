@@ -13,4 +13,7 @@
     <string name="ok">Tamam</string>
     <string name="cancel">Iptal</string>
     <string name="res_msg">Benim cevabim bu</string>
+    <string name="start_chat">Chate Basla</string>
+    <string name="done_chat">Gonder</string>
+
 </resources>

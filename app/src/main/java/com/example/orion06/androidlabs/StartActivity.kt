@@ -19,6 +19,9 @@ class StartActivity : Activity() {
         var btnStart = findViewById(R.id.btnStart) as? Button
         btnStart?.setOnClickListener( { btnStartClick() })
 
+        var btnStartChat = findViewById(R.id.btnStartChat) as? Button
+        btnStartChat?.setOnClickListener( { btnStartChatClick() })
+
     }
 
     override fun onResume() {
@@ -49,6 +52,13 @@ class StartActivity : Activity() {
     fun btnStartClick(){
         val intent = Intent(this@StartActivity, ListItemsActivity::class.java)
         startActivityForResult(intent,50)
+    }
+
+
+    fun btnStartChatClick(){
+        Log.i(ACTIVITY_NAME, "User clicked Start Chat")
+        val intent = Intent(this@StartActivity, ChatWindowActivity::class.java)
+        startActivity(intent)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
